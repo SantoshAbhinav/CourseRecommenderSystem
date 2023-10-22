@@ -1,0 +1,27 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hi", "Hii", "Hai"],
+         "responses": ["Hi there!, I am your course recommendation bot! I can guide you to choose the most recommended courses in edX Enter the name of the course or domain of the course you are looking for!!"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Good bye", "Nice chatting to you, bye", "Till next time", "Nice to meet you"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Bye! Have a great day"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "Glad to help you!"]
+        },
+        {"tag": "no_answer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Could you please be more specific", "Not sure I understand","Sorry!, I didn't get you","Ask me anything to help you with"]
+        },
+        {"tag": "options",
+             "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What dO u do?", "What's your work"],
+         "responses": ["I can guide you to choose the most recommended courses in edX", "Offering support to recommend most popular and enrolled courses in edX"]
+        },
+        {"tag": "institution",
+         "patterns": ["Which organisation these courses are from?", "which online platform the courses you are recommending from?", "Which website these courses are from"],
+         "responses": ["EdX", "From EdX online learning paltform"]
+        }
+    ]
+    }
